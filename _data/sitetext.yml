@@ -11,10 +11,10 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: xxxx!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: It's Nice To Meet You
+    text: Quantum Intelligence Lab XB
+    button: Introduce
+    buttonlink: "#home"
 
   home:
     title: "Home"
