@@ -86,8 +86,22 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+    # left is the default
+    #start_align: "left"
+    people:
+      - name: "xb"
+        role: "x"
+        image: assets/img/photo.jpeg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+    body: "I am an Assistant Professor in the University of Toronto working on quantum-enhanced machine learning and applications of high-performance learning algorithms in quantum physics. I am also the Academic Director of the Quantum Machine Learning Program in the Creative Destruction Lab, a Data Scientist in Residence in the TD Management Data and Analytics Lab, a Faculty Affiliate in the Vector Institute for Artificial Intelligence, and an Affiliate in the Perimeter Institute for Theoretical Physics."
+    introduce: "## Preview - click for live demo"
+  section: about
 
   clients:
     section: clients
